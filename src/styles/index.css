@@ -9,3 +9,10 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.todo-close {
+  opacity: 0;
+}
+
+.todo-item:hover .todo-close {
+  opacity: 1;
+}
